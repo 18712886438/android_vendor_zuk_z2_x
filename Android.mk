@@ -41,7 +41,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/app/datastatusnotification/datastatusnotification.apk
+LOCAL_SRC_FILES := prebuild/app/datastatusnotification/datastatusnotification.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -52,7 +52,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/app/QtiTelephonyService/QtiTelephonyService.apk
+LOCAL_SRC_FILES := prebuild/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -63,7 +63,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/app/shutdownlistener/shutdownlistener.apk
+LOCAL_SRC_FILES := prebuild/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -74,7 +74,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/app/TimeService/TimeService.apk
+LOCAL_SRC_FILES := prebuild/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -85,7 +85,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+LOCAL_SRC_FILES := prebuild/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -97,7 +97,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_SRC_FILES := prebuild/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -109,7 +109,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := colorservice
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/vendor/app/colorservice/colorservice.apk
+LOCAL_SRC_FILES := prebuild/vendor/app/colorservice/colorservice.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -130,7 +130,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/vendor/app/imssettings/imssettings.apk
+LOCAL_SRC_FILES := prebuild/vendor/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -142,7 +142,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/vendor/app/ims/ims.apk
+LOCAL_SRC_FILES := prebuild/vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
